@@ -51,5 +51,5 @@ inputArrayFiltered.forEach(function (element) {
     RenderInput(element);
 });
 
-let myVideo= new Video("app","https://www.youtube.com/embed/ptc4Awb0UpU",560,315)
+let myVideo= new Video ("videoID","https://www.youtube.com/embed/ptc4Awb0UpU","videopmp4",560,315)
 myVideo.render();
