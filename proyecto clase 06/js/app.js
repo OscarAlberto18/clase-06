@@ -1,8 +1,5 @@
 ///////////////////////////////
 /// Importar funciones o clases
-import Button from "./components/button.js";
-import Input from "./components/input.js";
-import Video from "./components/video.js";
 
 /////////////////////////////////////////////
 //// datos
@@ -10,6 +7,9 @@ let mySuperArrayofStrings = ["Login", "Signup", "Reset", "Cancel"];
 let inputArray = ["Username", "Surname", "E-mail", "Password"];
 let inputArrayFiltered = inputArray.filter( element => element=="Password");
 ///////////////////////////////////////////
+import Button from "../component/button.js";
+import Input from "../component/input.js";
+import Video from "../component/video.js";
 
 
 //////////////////////////////////////////////
@@ -51,5 +51,6 @@ inputArrayFiltered.forEach(function (element) {
     RenderInput(element);
 });
 
-let myVideo= new Video ("videoID","https://www.youtube.com/embed/ptc4Awb0UpU","videopmp4",560,315)
+
+let myVideo = new Video("videoID", "https://www.w3schools.com/tags/movie.mp4", 320, 480, "video/mp4");
 myVideo.render();

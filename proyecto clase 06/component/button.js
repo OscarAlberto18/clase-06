@@ -15,3 +15,4 @@ export default class Button {
         // dibuje un boton con el texto de this.text
     }
 }
+
